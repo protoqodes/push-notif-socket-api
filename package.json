@@ -6,22 +6,11 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
-    "@types/socket.io": "^1.4.31",
-    "@types/socket.io-client": "^1.4.30",
-    "bson-ext": "^1.0.5",
-    "kerberos": "0.0.23",
-    "mongodb": "^2.2.31",
-    "mongoose": "^4.11.7",
-    "mongoose-auto-increment": "^5.0.1",
-    "nodemon": "^1.12.1",
-    "socket.io": "^2.0.3",
-    "socket.io-client": "^2.0.3"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "start-dev": "nodemon server/server.js"
+    "eject": "react-scripts eject"
   }
 }
